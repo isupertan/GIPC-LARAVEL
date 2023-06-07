@@ -1,0 +1,79 @@
+.footer {
+  background: #212121;
+  background-image: url('../img/footerbg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 3rem 0 0 0;
+}
+
+.footer-menu {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  list-style-type: "\003E";
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+
+}
+.footer-menu li a {
+  color: #fff;
+}
+
+.social-menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: "Arsenal", sans-serif;
+  flex-wrap: wrap;
+}
+
+.social-menu li {
+    list-style-type: none;
+    width: 12%;
+    background: #0f73a0;
+    margin: 0.25rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+}
+.spl-tag-class a{
+    color: #ffff00;
+    font-size: 18px;
+    text-decoration: none
+}
+.social-menu li a {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.footer-sceond-part {
+  padding: 2rem;
+  background: #333333;
+  margin: 3rem 0;
+}
+
+.copyright {
+   color: #dd9933!important;
+   font-size: 0.8rem;
+   text-align: center;
+}
+
+.trademark {
+  color: #545b62;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 582px) {
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

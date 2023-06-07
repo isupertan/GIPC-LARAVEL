@@ -1,0 +1,1037 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 500;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #992516;
+  border-radius: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #9c1e0db6;
+  transition: 0.3s;
+}
+
+.text-gray {
+  color: rgb(126, 126, 126);
+}
+
+.bg-color {
+  background-color: #992516;
+}
+
+.color {
+  color: #992516;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.grand {
+  font-family: "Grand Hotel", cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.my-btn .btn {
+  border: 2px solid #992516;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: #992516;
+  font-weight: 500;
+  color: white;
+}
+
+.my-btn .btn:hover {
+  background-color: white;
+  color: #992516;
+  transition: 0.3s;
+}
+
+.my-btn-2 .btn {
+  background-color: none;
+  border: 2px solid #992516;
+  color: #992516;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.my-btn-2 .btn:hover {
+  background-color: #992516;
+  transition: 0.3s;
+  color: white;
+}
+
+.form-sec input,
+.form-sec textarea,
+.form-sec .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-sec textarea {
+  height: 145px;
+}
+
+.form-sec input,
+.form-sec textarea {
+  outline: 0;
+  border: 1px solid rgb(170, 170, 170);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.form-sec input:focus,
+.form-sec textarea:focus {
+  border: 2px solid #992516;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+/* -------hero banner or slider section------ */
+
+.hero-slider {
+  position: relative;
+  height: 90vh;
+}
+
+.hero-slider .item .wrap {
+  position: relative;
+}
+
+.hero-slider .item .wrap .img-sec {
+  height: 90vh;
+}
+
+.hero-slider .item .wrap .img-sec img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-slider .owl-dots {
+  display: none;
+}
+
+.hero-slider .owl-nav {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-slider button.owl-prev img {
+  transform: rotateY(175deg);
+  top: 40%;
+  left: 30%;
+}
+
+.hero-slider button.owl-next img {
+  right: 30%;
+  top: 40%;
+}
+
+.hero-slider button img {
+  width: 70px;
+  position: absolute;
+}
+
+.hero-slider button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100% !important;
+  background-color: #992516a9 !important;
+  position: relative;
+}
+
+.hero-slider button:hover {
+  background-color: #992516 !important;
+  transition: 0.3s;
+}
+
+.hero-slider .text-sec {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.hero-slider .text-sec .sub-heading {
+  width: 45%;
+  overflow: hidden;
+}
+
+.hero-slider .text-sec h3 {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.hero-slider .text-sec .heading {
+  width: 80%;
+  overflow: hidden;
+}
+
+.hero-slider .text-sec h2 {
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+}
+
+.hero-slider .text-sec .para {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-slider .text-sec p {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.hero-slider .my-btn {
+  width: 80%;
+}
+
+.hero-slider .owl-stage .owl-item.active .item .container .text-wrap div h3,
+.hero-slider .owl-stage .owl-item.active .item .container .text-wrap div h2,
+.hero-slider .owl-stage .owl-item.active .item .container .text-wrap div p,
+.hero-slider .owl-stage .owl-item.active .item .container .text-wrap div .btn {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0.7s;
+}
+
+/* -----Main section / service section------- */
+
+section.service {
+  position: relative;
+}
+
+section.service h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.service .service-slider .owl-dots {
+  display: none;
+}
+
+section.service .owl-nav button {
+  border-radius: 100% !important;
+  background-color: transparent !important;
+}
+
+section.service .owl-nav button:hover {
+  background-color: #992516 !important;
+  transition: 0.3s;
+}
+
+section.service .owl-nav button img {
+  width: 48px;
+}
+
+section.service button.owl-prev img {
+  transform: rotateY(175deg);
+  top: 40%;
+  left: 30%;
+}
+
+section.service .service-slider .item {
+  padding: 15px;
+}
+
+section.service .service-slider .item .wrap {
+  border: 1px solid #992516;
+  border-radius: 10px;
+  background-color: #992516;
+  color: white;
+  transition: 0.3s;
+  transform: scale(1);
+}
+
+section.service .service-slider .item .wrap:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+section.service .service-slider .item .wrap .icon-sec {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+section.service .service-slider .item .wrap h5 {
+  font-weight: 600;
+}
+
+/* -----home service section------ */
+
+section.home-service h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.home-service .service .wrap {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.home-service .service .wrap:hover {
+  transform: scale(0.95);
+  transition: 0.3s;
+}
+
+/* ---------our vets------- */
+
+section.vets h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.vets .vets-sec .wrap {
+  border: 1px solid #992516;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: #992516;
+  transition: 0.3s;
+}
+
+section.vets .vets-sec .wrap:hover {
+  box-shadow: 0 0 5px 1px #992516b0;
+  transition: 0.3s;
+}
+
+section.vets .vets-sec .wrap .img-sec {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+section.vets .vets-sec .wrap .img-sec img {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.vets .vets-sec .wrap:hover .img-sec img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+section.vets .vets-sec .wrap .heading h5 {
+  font-weight: 600;
+}
+
+/* -------vet doctors----- */
+
+section.vet-doctors {
+  position: relative;
+  padding: 30px 0;
+}
+
+section.vet-doctors .vet-doctor-bg {
+  background-image: url(../img/background-img/outer-bg.jpg);
+  background-size: cover;
+  opacity: 0.16;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.vet-doctors h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.vet-doctors .owl-nav {
+  display: block !important;
+}
+
+section.vet-doctors .owl-nav button {
+  border-radius: 100% !important;
+  background-color: transparent !important;
+}
+
+section.vet-doctors .owl-nav button:hover {
+  background-color: #992516 !important;
+  transition: 0.3s;
+}
+
+section.vet-doctors .owl-nav button img {
+  width: 48px;
+}
+
+section.vet-doctors button.owl-prev img {
+  transform: rotateY(175deg);
+  top: 40%;
+  left: 30%;
+}
+
+section.vet-doctors .doctor-slider .item .card,
+section.vet-doctors .doctor-sec .item .card {
+  border: 1px solid #992516;
+  background-color: white;
+  box-shadow: 0 0 5px 1px #992516;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+section.vet-doctors .doctor-slider .item .card:hover,
+section.vet-doctors .doctor-sec .item .card:hover {
+  color: white;
+  background-color: #992516;
+  transition: 0.3s;
+}
+
+section.vet-doctors .doctor-slider .item .card .card-body .img-sec,
+section.vet-doctors .doctor-sec .item .card .card-body .img-sec {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  overflow: hidden;
+}
+
+section.vet-doctors .doctor-slider .item .card .card-footer,
+section.vet-doctors .doctor-sec .item .card .card-footer {
+  border: 0;
+}
+
+section.vet-doctors .doctor-slider .item .card:hover .btn,
+section.vet-doctors .doctor-sec .item .card:hover .btn {
+  background-color: white;
+  color: #992516;
+}
+
+section.vet-doctors .doctor-sec .item {
+    margin: 15px 0;
+}
+
+/* -----pet appointment section------- */
+
+section.appontment {
+  margin-top: 100px;
+}
+
+section.appontment h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.appontment .blog-sec p.date span {
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+section.appontment .blog-sec .blog a {
+  width: 100%;
+  border: 1px solid #992516;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+section.appontment .blog-sec .blog a:hover {
+  box-shadow: 0 0 5px 1px #992516b0;
+  transition: 0.3s;
+}
+
+section.appontment .blog-sec .blog a img {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.appontment .blog-sec .blog a:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+section.appontment .blog-sec .blog .img-sec {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+}
+
+section.appontment .blog-sec .blog .img-sec img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+section.appontment .blog-sec .blog .text-sec h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section.appontment .blog-sec .more-blog .date-year h3.date {
+  font-size: 30px;
+}
+
+section.appontment .blog-sec .more-blog .blog {
+  border: 1px solid #992516;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.appontment .blog-sec .more-blog .blog:hover {
+  box-shadow: 0 0 5px 1px #992516e5;
+  transform: scale(1.028);
+  transition: 0.3s;
+}
+
+section.appontment .appo-form {
+  border: 1px solid #992516;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 0 0 5px 2px #992516bd;
+  overflow: hidden;
+}
+
+section.appontment .appo-form > .wrap {
+  width: 100%;
+}
+
+section.appontment .form-sec {
+  padding: 12px;
+}
+
+section.appontment .form-sec input,
+section.appontment .form-sec textarea,
+section.appontment .form-sec .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+section.appontment .form-sec textarea {
+  height: 145px;
+}
+
+section.appontment .form-sec input,
+section.appontment .form-sec textarea {
+  outline: 0;
+  border: 1px solid rgb(170, 170, 170);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+section.appontment .form-sec input:focus,
+section.appontment .form-sec textarea:focus {
+  border: 2px solid #992516;
+}
+
+/* -------testimonial section------ */
+
+section.testimonial h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+section.testimonial .owl-nav {
+  display: block !important;
+}
+
+section.testimonial .owl-dots {
+  display: none !important;
+}
+
+section.testimonial .owl-nav button {
+  border-radius: 100% !important;
+  background-color: transparent !important;
+}
+
+section.testimonial .owl-nav button:hover {
+  background-color: #ffffff !important;
+  transition: 0.3s;
+}
+
+section.testimonial .owl-nav button img {
+  width: 48px;
+}
+
+section.testimonial button.owl-prev img {
+  transform: rotateY(175deg);
+  top: 40%;
+  left: 30%;
+}
+
+section.testimonial .testimonial-sec {
+  padding: 50px 0;
+}
+
+section.testimonial .testimonial-sec .testimonial-slider .item .wrap {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+section.testimonial .testimonial-sec .testimonial-slider .item .wrap .img-sec {
+  width: 100%;
+  height: 55%;
+  overflow: hidden;
+}
+
+section.testimonial
+  .testimonial-sec
+  .testimonial-slider
+  .item
+  .wrap
+  .img-sec
+  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.testimonial
+  .testimonial-sec
+  .testimonial-slider
+  .item
+  .wrap:hover
+  .img-sec
+  img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+section.testimonial .testimonial-sec .testimonial-slider .item .wrap .text-sec {
+  position: relative;
+  height: 40%;
+}
+
+section.testimonial
+  .testimonial-sec
+  .testimonial-slider
+  .item
+  .wrap
+  .text-sec
+  .text {
+  height: 100%;
+}
+
+section.testimonial
+  .testimonial-sec
+  .testimonial-slider
+  .item
+  .wrap
+  .text-sec
+  .quote {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #992516;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+/* ------------contact us page--------- */
+
+section.contact-hero-sec {
+  background-image: url(../img/banner/slider/slider-5.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.contact-hero-sec p {
+  letter-spacing: 4px;
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.contact-hero-sec h4 {
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.contact-hero-sec h2 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.contact-sec .form-sec-wrap {
+  border: 1px solid #992516;
+  box-shadow: 0 0 5px 2px #992516b0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.contact-sec .form-sec-wrap .form-sec {
+  padding: 12px;
+}
+
+section.contact-sec .img-sec {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+section.contact-sec .details-sec > .wrap {
+  height: fit-content;
+  width: 100%;
+}
+
+section.contact-sec .details-sec .details-wrap .text li {
+  font-size: 14px;
+  text-align: center;
+}
+
+section.address span i {
+  font-size: 30px;
+}
+
+section.address span {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.address .address-details {
+  height: 540px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #992516;
+  box-shadow: 0 0 5px 2px #992516b0;
+}
+
+section.address .address-details .img-sec {
+  height: 180px;
+  overflow: hidden;
+}
+
+section.address .address-details .img-sec img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+section.address .address-details .text-sec {
+  height: 360px;
+}
+
+section.address .map-sec {
+  height: 340px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* .map-sec .img-sec{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.map-sec .img-sec img{
+  width: 100%;
+  height: 100%;
+} */
+
+/* --------about us page section------- */
+
+section.about-hero-sec {
+  background-image: url(../img/banner/slider/slider-6.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.about-hero-sec p {
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.about-hero-sec h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.about-hero-sec h2 {
+  font-size: 60px;
+  font-weight: 700;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.about-hero-sec h2 span {
+  font-weight: 700;
+}
+
+/* -----about section------ */
+
+section.about-sec .love-pet p em {
+  font-size: 20px;
+  color: #222222;
+}
+
+section.about-sec .img-sec {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.about-sec img {
+  border-radius: 10px;
+  width: 100%;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.about-sec .img-sec:hover img {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+    background-color: #992516;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #992516;
+  outline: 0;
+  box-shadow: 0 0 5px 1px #992516b0;
+}
+
+.accordion-button i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* -----service page design-------- */
+
+section.service-hero-sec {
+  background-image: url(../img/banner/slider/slider-4.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.service-hero-sec p {
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.service-hero-sec h4 {
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.service-hero-sec h2 {
+  font-size: 60px;
+  font-weight: 700;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.service-page .img-sec {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.service-page .img-sec img {
+  width: 100%;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section.service-page .img-sec:hover img {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* ----------doctor list page design-------- */
+
+section.doctor-hero-sec {
+  background-image: url(../img/banner/slider/slider-3.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.doctor-hero-sec p {
+  letter-spacing: 4px;
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.doctor-hero-sec h4{
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.doctor-hero-sec h2 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight !important;
+  animation-delay: 0s;
+}
+
+section.contact-hero-sec .text-sec,
+section.service-hero-sec .text-sec,
+section.about-hero-sec .text-sec,
+section.doctor-hero-sec .text-sec{
+  overflow: hidden;
+}
+
+section.contact-hero-sec .text-sec h4,
+section.service-hero-sec .text-sec h4,
+section.about-hero-sec .text-sec h4,
+section.doctor-hero-sec .text-sec h4{
+  width: 40%;
+}
+
+
+/* -----------extra customizable--------- */
+
+section.contact-hero-sec,
+section.service-hero-sec,
+section.about-hero-sec,
+section.doctor-hero-sec{
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000069;
+}
+
+.accordion-button{
+  position: relative;
+}
+
+.accordion-button::after{
+  background-image: none!important;
+  content: '';
+  border: 2px solid black;
+  border-radius: 2px;
+  border-width: 0 2px 2px 0;
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+}
+
+.accordion-button:not(.collapsed)::after{
+  transform: rotate(-135deg);
+  border-color: #ffffff;
+}

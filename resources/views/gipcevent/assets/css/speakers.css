@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+   
+}
+/* speaker 1 section start  */
+.sp_head {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sp_section_1 {
+  background-color: #292929;
+}
+.sp_dp img {
+  display: inline-block;
+}
+.sp_title p {
+  margin-left: -200px;
+}
+.sp_name {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 12px;
+  color: #000;
+}
+
+.sp_designation {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0px;
+}
+.sp_card {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  /* transition: border-bottom 0.2s ease-in-out; */
+  transition: box-shadow 300ms ease-out;
+  border: 1px solid #ebebeb;
+  margin-bottom: 20px;
+}
+.sp_card:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 2px 0px 0px #606c88;
+  /* box-shadow: none; */
+  /* border-bottom: 2px solid #606c88; */
+   cursor: pointer;
+}
+
+/* speaker 1 section end  */
+/* speaker 2 section start  */
+.sp_head_2 {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 30px !important;
+}
+
+/* modal css  */
+
+.modal-content {
+  padding: 5px 35px;
+  overflow-y: auto;
+  height: 550px;
+   scrollbar-color:  #ffffff !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.sp_dp_ img {
+  display: inline-block;
+}
+.sp_title_ p {
+  margin-left: -378px;
+}
+.sp_name_ {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 21px;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.sp_designation_ {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0px;
+}
+
+.modal_about_title {
+  margin-top: 29px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sp_modal_event{
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+.modal-footer{
+    border-top: none !important;
+}
+.sp_ev{
+    color: #000;
+    
+}
+.event_details .fa-solid{
+    color: #C1C1C1;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
+.event_details a{
+    text-decoration: none;
+}
+.sp_ev.all{
+text-decoration: none;
+background-color: #7E9BBE;
+padding: 2px 5px;
+border-radius: 2px;
+color: #fff;
+font-size: 12px;
+}
+
+.bottom_bg{
+    background-color: #292929;
+}
+.bot_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.bot_mail{
+    font-size: 25px;
+    color: #fff;
+}
+.bot_text a{
+    /* text-decoration: none; */
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+/* ######################## css for mibile screens #########################  */
+
+@media (max-width: 767px) {
+.sp_head{
+    color: #fff;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 25px;
+margin-top: 25px !important;
+}
+
+.sp_head_2{
+    /* color: #fff; */
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 25px;
+margin-top: 25px !important;
+}
+
+
+/* modal  */
+.sp_title_ p {
+  margin-left: -170px;
+}
+.sp_name_ {
+  font-size: 25px;}
+.sp_title_{
+    margin-top: -30px;
+}
+.sp_ev_title{
+    font-weight: 600 !important;
+}
+
+.sp_ev{
+    display: block !important;
+    margin: 0 !important;
+}
+.fa-solid{
+    margin-left: 0 !important;
+}
+.sp_ev.all{
+    display: inline-block !important;
+}
+
+.bot_text h2 {
+  font-size: 25px;
+
+}
+.bot_mail {
+  font-size: 20px;
+  
+}
+.bot_text a {
+  /* text-decoration: none; */
+  color: #fff;
+  font-size: 20px;
+}
+}

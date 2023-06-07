@@ -1,0 +1,327 @@
+@media (min-width: 768.1px) {
+  .outer-wrap .close {
+    display: none !important;
+  }
+
+  nav .menu-bar {
+    display: none !important;
+  }
+
+  .outer-wrap {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  html,body{
+    width: auto!important;
+    overflow-x: hidden!important;
+  }
+
+  nav .active {
+    background-color: #992516 !important;
+    color: white !important;
+  }
+
+  /* ------navbar------- */
+
+  .nav-link {
+    color: rgb(34, 34, 34);
+    padding-left: 20px !important;
+  }
+
+  .nav-link:hover {
+    background-color: white;
+    color: rgb(34, 34, 34);
+  }
+
+  .call {
+    display: none;
+  }
+
+  nav .menu-bar {
+    font-size: 25px;
+  }
+
+  .outer-wrap {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 100;
+  }
+
+  .outer-wrap .outer-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #992516;
+  }
+
+  .outer-wrap .outer-bg .outer-bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/background-img/outer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+  }
+
+  .outer-wrap .close {
+    position: absolute;
+    top: 7%;
+    right: 9%;
+    color: white;
+    font-size: 25px;
+  }
+
+  .outer-wrap .nav-menu {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 15%;
+    left: 0;
+  }
+
+  /* ------hero section------ */
+
+  .hero-slider .owl-nav {
+    display: none;
+  }
+
+  .hero-slider .text-sec h3 {
+    font-size: 50px;
+  }
+
+  .hero-slider .text-sec h2 {
+    font-size: 59px;
+  }
+
+  .hero-slider .text-sec p {
+    font-size: 16px;
+  }
+
+  /* ----appointment section-------- */
+
+  /* .more-blog .my-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .more-blog .my-btn .btn{
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  html,body{
+    width: auto!important;
+    overflow-x: hidden!important;
+  }
+
+  h2{
+    font-size: 30px!important;
+  }
+
+  .owl-dots .active span,
+  .owl-dots{
+    display: none;
+    background-color: #992516!important;
+  }
+
+  .heading{
+    padding: 20px!important;
+  }
+
+  .hero-sec .heading{
+    padding: 5px 0!important;
+  }
+
+  .hero-sec .item{
+    padding: 0!important;
+  }
+
+  .hero-slider,
+  .hero-slider .item .wrap .img-sec {
+    height: 300px;
+  }
+
+  .hero-slider .text-sec h3 {
+    font-size: 35px;
+  }
+
+  .hero-slider .text-sec h2 {
+    font-size: 45px;
+  }
+
+  .hero-slider .text-sec p {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .home-service .container > .row > div{
+    margin-bottom: 20px;
+  }
+
+  .service .owl-carousel .owl-stage-outer{
+    height: 328px;
+  }
+
+  .counter-sec{
+    margin: 20px auto!important;
+  }
+
+  .counter-sec .count-wrap{
+    padding: 10px!important;
+  }
+
+  .appontment{
+    margin-top: 20px!important;
+  }
+
+  .appontment .heading{
+    margin-bottom: 0!important;
+  }
+
+  .appontment .blog-1{
+    margin-bottom: 20px;
+  }
+
+  .appontment .appo-form{
+    border: 0!important;
+    border-radius: 0!important;
+    box-shadow: 0 0 0 0!important;
+  }
+
+  .appontment .appo-form > .wrap{
+    margin: 0 10px;
+    border: 1px solid #992516;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px #992516bd;
+  }
+
+  .appontment .form-sec{
+    padding: 10px!important;
+  }
+
+  .testimonial .heading{
+    margin-bottom: 0px!important;
+  }
+
+  .testimonial .testimonial-sec{
+    padding: 20px 0!important;
+  }
+
+  .testimonial .item{
+    padding: 15px;
+  }
+
+  footer .heading{
+    padding: 0!important;
+  }
+
+  /* -------about page----- */
+
+  section.about-hero-sec p,
+  section.contact-hero-sec p{
+    display: none;
+  }
+
+  section.contact-hero-sec .text-sec h4,
+  section.service-hero-sec .text-sec h4,
+  section.about-hero-sec .text-sec h4,
+  section.doctor-hero-sec .text-sec h4{
+    font-size: 18px;
+  }
+
+  section.contact-hero-sec .text-sec h2,
+  section.service-hero-sec .text-sec h2,
+  section.about-hero-sec .text-sec h2,
+  section.doctor-hero-sec .text-sec h2{
+    font-size: 24px!important;
+  }
+
+  .about-sec{
+    margin: 20px 0!important;
+  }
+
+  .about-sec .img-sec{
+    margin-top: 20px;
+  }
+
+  .about-sec .container > .row{
+    flex-direction: column-reverse;
+  }
+
+  .about-sec-2 .container > .row{
+    flex-direction: column;
+  }
+
+  .about-sec br{
+    display: contents;
+  }
+
+  .about-sec p em{
+    font-size: 17px!important;
+  }
+
+  /* -------service page--------- */
+
+  .different-sec .row{
+    flex-direction: column-reverse;
+  }
+
+  body .different-sec-2 .row{
+    flex-direction: column;
+  }
+
+  /* --------contact page------ */
+  section.contact-hero-sec .text-sec h4{
+    width: 52%;
+  }
+
+  /* --------doctor page------ */
+
+  .contact-sec .vets-sec > .row > div{
+    padding: 0;
+  }
+
+  .contact-sec .vets-sec{
+    padding: 12px;
+  }
+
+  section.vet-doctors {
+    position: relative;
+    padding: 20px 0;
+}
+
+section.vet-doctors .doctor-sec{
+  padding: 0!important;
+}
+
+section.vet-doctors .doctor-sec .wrap > div{
+  padding: 0;
+}
+}

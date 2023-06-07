@@ -1,0 +1,59 @@
+
+/* -----Footer sections------ */
+
+footer.footer{
+  background-color: #262626;
+}
+
+footer.footer .heading{
+  color: white;
+  text-transform: uppercase;
+}
+
+footer.footer .heading h6{
+  font-weight: 700;
+}
+
+footer.footer .text{
+  color: #888888;
+  font-size: 14px;
+}
+
+footer.footer .text .social span a{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  border-radius: 100%;
+  background-color: white;
+  color: #262626;
+  transition: 0.30s;
+}
+
+footer.footer .text .social span a:hover{
+  background-color: #f78263;
+  transition: 0.30s;
+}
+
+footer .newsletter-sec textarea{
+  background: transparent;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  width: 100%;
+}
+
+footer .newsletter-sec .btn{
+  width: 100%;
+}
+
+footer .info-sec li{
+  margin-bottom: 1rem;
+}
+
+footer .btn:hover{
+  background: transparent!important;
+}

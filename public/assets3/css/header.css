@@ -1,0 +1,15 @@
+
+nav .active {
+  color: #992516 !important;
+}
+
+
+/* ------navbar------ */
+
+.nav-link {
+  color: rgb(77, 77, 77);
+}
+
+.nav-link:hover {
+  color: rgb(34, 34, 34);
+}

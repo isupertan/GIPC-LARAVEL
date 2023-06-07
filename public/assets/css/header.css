@@ -1,0 +1,273 @@
+.header-menu-black {
+	background: #212121;
+	/*padding: 0.25rem;*/
+}
+
+.top-most-header-link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1rem;
+	padding: 0 1rem;
+}
+
+.header-menu-black i {
+	color: #fff;
+}
+
+.padding-1-4 {
+	padding: 0.25rem;
+}
+
+.search-bar {
+	background: #ebedef;
+	border-radius: 25px;
+	padding: 0 2rem;
+}
+
+.search-bar input {
+	background: #ebedef;
+	border: none;
+	padding: 0.5rem;
+	outline: none;
+}
+
+.category-box h5 {
+	background-color: #0ebbd1;
+    margin: 0;
+    padding: 18px;
+    height: 53px;
+    margin-top: -10px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.category-box:after {
+	content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #0ebbd1;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: auto;
+    top: -10px;
+    right: 0;
+}
+
+.main-menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-around;
+	width: 90%;
+}
+
+.main-menu li {
+	list-style-type: none;
+	color: #fff;
+	font-size: 0.9rem;
+	padding-right: 0.5rem;
+}
+
+.main-menu li a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Poppins';
+}
+
+.main-menu li a:hover {
+	text-decoration: none;
+}
+
+.ui-menu {
+	width: 250px;
+	background: #212121;
+	border: 0.5px solid #212121 !important;
+	z-index: 9999;
+}
+
+.ui-menu-item a {
+	color: #fff;
+	font-weight: 100;
+	font-size: 0.8rem;
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+
+.border-bottom-none {
+	border-bottom: none !important;
+}
+
+.ui-menu-item a:hover,.ui-menu-item a:active {
+	background: transparent !important;
+	color: #0ecae2;
+	text-decoration: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.menu-container {
+	position: absolute;
+}
+
+#hem {
+	position: absolute;
+	left: 0;
+	top: 1.75rem;
+	display: none;
+}
+
+#sdm {
+	position: absolute;
+	left: 0;
+	top: 1.75rem;
+	display: none;
+	transition: 0.3s;
+}
+
+#sodm {
+	position: absolute;
+	left: 0;
+	top: 1.75rem;
+	display: none;
+	transition: 0.3s;
+}
+
+#aum {
+	position: absolute;
+	left: 0;
+	top: 1.75rem;
+	display: none;
+	transition: 0.3s;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+	content: '\00BB';
+	color: #fff;
+}
+
+.no-border {
+	border-bottom: none !important;
+}
+
+.price-tag {
+	font-size: 0.75rem;
+	font-weight: normal !important;
+}
+
+.price-tag s {
+	color: #999999;
+}
+
+.mobile-menu-icon,.mobile-menu-close-btn {
+	display: none;
+}
+.main-menu-container {
+	width: 100%;
+}
+@media (max-width: 592px) {
+	.mobile-center {
+		display: flex !important;
+		justify-content: center !important;
+		padding: 0.5rem;
+	}
+	.mobile-center img {
+		max-width: 200px;
+		margin: 1.5rem 0;
+	}
+	.top-most-header-link {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+	.top-most-header-link a {
+		font-size: 1rem;
+		width: 50%;
+	}
+	.mobile-menu-icon {
+		display: block;
+		padding-left: 1.5rem;
+		color: #fff !important;
+		font-size: 1.25rem;
+		text-decoration: none !important;
+	}
+	.mobile-flex {
+		display: flex;
+		align-items: center;
+	}
+	.category-box {
+		width: 85%;
+	}
+	.category-box:after {
+		left: 82%;
+	}
+	/*.main-menu {
+		display: none;
+	}*/
+	.mobile-menu-close-btn {
+		display: block;
+		color: #fff !important;
+		font-size: 2.5rem;
+		text-decoration: none !important;
+		position: absolute;
+		top: 1rem;
+		right:  2rem;
+		
+	}
+	.main-menu-container {
+		position: fixed;
+		top: 0;
+		right: -100%;
+		bottom: 0;
+		background: #212121;
+		z-index: 9999;
+		display: flex;
+		flex-direction: column;
+		transition: 0.3s;
+		padding: 1rem;
+		overflow-y: scroll;
+		width: 80%;
+		padding-top: 4rem;
+	}
+	.main-menu {
+		/*position: fixed;
+		top: 0;
+		right: -100%;
+		bottom: 0;
+		background: #212121;
+		z-index: 9999;
+		display: flex;
+		flex-direction: column;
+		transition: 0.3s;
+		padding: 1rem;
+		overflow-y: scroll;*/
+		/*padding-top: 750px;*/
+		display: block;
+		width: 100%;
+
+	}
+	.main-menu li {
+		padding: 0.25rem 0;
+		position: initial !important
+	}
+	.main-menu li:before {
+		content: '\00BB';
+		padding-right: 0.5rem;
+	}
+	.main-menu ul {
+		padding-left: 1rem !important;
+	}
+	#hem, #sdm, #sodm, #aum {
+		display: block;
+		position: initial;
+	}
+
+}
